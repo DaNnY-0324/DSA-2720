@@ -1,0 +1,13 @@
+The lab analyzed the time and space complexities of two tasks: summing numbers in an array and performing matrix addition. Python's timeit and sys modules were used for precise measurements.
+
+Array Summation:
+
+Time Complexity: O(n) – Execution time increased linearly with array size.
+Space Complexity: O(n) – Memory usage scaled proportionally to array size.
+Conclusion: Efficient for handling large arrays with linear growth in time and space requirements.
+Matrix Addition:
+
+Time Complexity: O(n²) – Execution time increased quadratically with matrix size.
+Space Complexity: O(n²) – Memory usage also scaled quadratically with matrix size.
+Conclusion: Suitable for medium-sized matrices, though quadratic complexity can be resource-intensive for large inputs.
+Final Observation: Both algorithms adhered to their theoretical complexities. For further optimization, using libraries like NumPy could enhance performance for large-scale data operations.
