@@ -1,0 +1,16 @@
+Comparison of Stack Implementations:
+
+1. **Singly Linked List Implementation:**
+   - Uses a dynamic structure where each node has a reference to the next node.
+   - Efficient for inserting and deleting elements as it only requires pointer manipulation.
+   - Does not have a fixed size and can grow as needed.
+   - Requires more memory due to pointers.
+
+2. **Python List Implementation:**
+   - Uses a built-in dynamic array.
+   - Provides fast access using Python's built-in methods like append() and pop().
+   - Easier to implement and maintain.
+   - May have performance issues if the list needs to grow and allocate new memory.
+
+**Overall Conclusion:**
+The Python list implementation is more straightforward and memory-efficient for most applications. However, the linked list implementation is useful when needing finer control over memory allocation or when dealing with large-scale stack operations that require efficient insertions/deletions.
