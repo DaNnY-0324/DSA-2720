@@ -1,0 +1,19 @@
+Summary of Queue Implementations Report
+This report compares two queue implementations: Singly Linked List-based Queue and Python List-based Queue.
+
+Singly Linked List Queue:
+
+Efficient with O(1) enqueue and dequeue operations.
+Uses extra memory for pointers but avoids list resizing overhead.
+Best for large-scale operations with frequent insertions and deletions.
+
+Python List Queue:
+
+Simple to implement using append() and pop(0).
+Dequeue is O(n) due to shifting elements, making it inefficient for large data.
+Best for small-scale applications where ease of use is preferred.
+
+Conclusion:
+Use a Linked List Queue for better performance in frequent insertions/deletions.
+Use a Python List Queue for quick, simple implementations with minimal operations.
+Both implementations correctly demonstrate queue operations and handle queue underflow.
